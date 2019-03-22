@@ -1,0 +1,16 @@
+<view class='food-main'>
+    <view class='food-icon'>
+      <image src="{{foodCorcleData.headPortrait}}"></image>
+    </view>
+    <view class='food-data-grounp'>
+      <view class='food-data-info'>
+        <view class='food-data-nick-name'>{{foodCorcleData.nickName}}</view>
+        <view class='food-data-item'>
+          {{foodCorcleData.foodData}}
+        </view>
+      </view>
+      <view class='food-data-photo' wx:if="{{foodCorcleData.foodImg.length>0}}">
+        <image class='news-body-img' wx:for="{{foodCorcleData.foodImg}}" wx:for-index="index" wx:key="index" src="{{item}}"></image>
+      </view>
+    </view>
+  </view>

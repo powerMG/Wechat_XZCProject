@@ -1,0 +1,5 @@
+{
+  "usingComponents":{
+    "food-corcle":"../template/foodCircle/index"
+  }
+}

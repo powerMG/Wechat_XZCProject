@@ -1,0 +1,14 @@
+.layout-data-group {
+  margin-bottom: 10px;
+  background: #fff;
+}
+
+.layout-item {
+  padding: 10px 15px;
+  border-bottom: solid 1px #ddd;
+}
+
+.layout-more {
+  float: right;
+  color: #dadada;
+}

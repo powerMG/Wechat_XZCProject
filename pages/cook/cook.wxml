@@ -1,0 +1,47 @@
+<!--pages/cook/cook.wxml-->
+<view class='conetent'>
+  <view class='img'>
+    <swiper indicator-dots='{{indicatorDots}}' autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{banners}}" wx:for-index="index" wx:key="{{index}}">
+        <swiper-item>
+          <image src='{{item}}' style='width:100%; height:230px;'></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='nav'>
+    <view class='nav-item'>
+      <view>
+        <image src='../../images/icon/fenlei.png' style='width:25px; height:23px;'></image>
+      </view>
+      <view>菜谱分类</view>
+    </view>
+    <view class='nav-item'>
+      <view>
+        <image src='../../images/icon/shipin.png' style='width:25px; height:23px;'></image>
+      </view>
+      <view>视频</view>
+    </view>
+    <view class='nav-item'>
+      <view>
+        <image src='../../images/icon/yangsheng.png' style='width:25px; height:23px;'></image>
+      </view>
+      <view>美食养生</view>
+    </view>
+    <view class='nav-item'>
+      <view>
+        <image src='../../images/icon/shangou.png' style='width:25px; height:23px;'></image>
+      </view>
+      <view>闪购</view>
+    </view>
+  </view>
+  <view class='hr'></view>
+  <view class='head'>
+    <view>头条</view>
+    <view class='right'>></view>
+  </view>
+  <import src="../template/template" />
+  <view class='list'>
+    <template is="cooks" data="{{array}}" />
+  </view>
+</view>

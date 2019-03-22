@@ -1,0 +1,21 @@
+<!--pages/template/headLine/index.wxml-->
+<view class='news-main'>
+  <h2 class="news-tit">{{newsItem.title}}</h2>
+  <view class='news-header'>
+    <span class="news-header-item news-header-left">{{newsItem.newsType}}</span>
+    <span class="news-header-item news-header-right">{{newsItem.newsDate}}</span>
+  </view>
+  <view class='news-body' wx:if="{{newsItem.newImgs.length>1}}">
+    <view>{{newsItem.message}}</view>
+    <image class='news-body-img' wx:for="{{newsItem.newImgs}}" wx:for-index="index" wx:key="index" src="{{item}}"></image>
+  </view>
+  <view class='news-body' wx:elif="{{newsItem.newImgs.length===1}}">
+    <span class="news-body-data">
+      {{newsItem.message}}
+    </span>
+    <image class='news-body-img img-right' src="{{newsItem.newImgs[0]}}"></image>
+  </view>
+  <view class='news-body' wx:else>
+    {{newsItem.message}}
+  </view>
+</view>

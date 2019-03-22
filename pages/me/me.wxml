@@ -1,0 +1,6 @@
+<!--pages/me/me.wxml-->
+<view class='me-layout'>
+  <layout-account-info accountInfo="{{accountInfo}}"></layout-account-info>
+  <layout-data-group settingData="{{menulist.settingData}}"></layout-data-group>
+  <layout-data-group settingData="{{menulist.sysetting}}"></layout-data-group>
+</view>

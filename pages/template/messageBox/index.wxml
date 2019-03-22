@@ -1,0 +1,16 @@
+<!--pages/template/messageBox/index.wxml-->
+  <view class="message-main">
+    <view class='message-head'>
+      <view class='message-head-group'>
+        <text>{{messageData.msgType===1?"系统消息：":"好友消息："}}</text>
+        <view class='message-head-h2'>{{messageData.blockquote}}</view>
+      </view>
+    </view>
+    <view class='message-body'>
+      {{messageData.msgData}}
+    </view>
+    <view class='message-footer'>
+      <span class="message-footer-author">{{messageData.author}}</span>
+      <span class="message-footer-date">{{messageData.msgTime}}</span>
+    </view>
+  </view>

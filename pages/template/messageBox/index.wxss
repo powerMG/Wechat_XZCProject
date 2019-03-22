@@ -1,0 +1,55 @@
+/* pages/template/messageBox/index.wxss */
+
+.message-main {
+  margin: 10px;
+  padding: 10px;
+  width: 90%;
+  height: 340px;
+  background: -webkit-linear-gradient(top left, transparent 10%, #f0e68c 0);
+  position: relative;
+  border-radius: 5px;
+}
+
+.message-main::after {
+  content: "";
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  background: -webkit-linear-gradient(top left, transparent 50%, rgb(230, 241, 165) 0);
+  top: 0px;
+  left: 0px;
+  border-bottom-left-radius: 5px;
+}
+
+.message-head {
+  overflow: hidden;
+}
+
+.message-head-h2 {
+  font-size: 14px;
+  color: rgb(117, 112, 112);
+}
+
+.message-head-group {
+  width: 80%;
+  height: 70px;
+  float: right;
+}
+
+.message-body {
+  height: 240px;
+  overflow: auto;
+}
+
+.message-footer {
+  height: 40px;
+  line-height: 40px;
+}
+
+.message-footer-author {
+  float: left;
+}
+
+.message-footer-date {
+  float: right;
+}

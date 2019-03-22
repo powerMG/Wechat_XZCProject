@@ -1,0 +1,6 @@
+<!--pages/headline/headline.wxml-->
+<view>
+  <block wx:for="{{newsData}}" wx:for-index="index" wx:key="index">
+    <head-line newsItem="{{item}}"></head-line>
+  </block>
+</view>

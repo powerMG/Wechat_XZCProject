@@ -1,0 +1,6 @@
+<!--pages/food/food.wxml-->
+<view>
+  <block wx:for="{{foodCircleList}}" wx:for-index="index" wx:key="index">
+    <food-corcle foodCorcleData="{{item}}"></food-corcle>
+  </block>
+</view>

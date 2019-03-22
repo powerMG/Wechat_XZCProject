@@ -1,0 +1,52 @@
+/* pages/template/headLine/index.wxss */
+
+.news-main {
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: solid 1px #ddd;
+}
+
+.news-tit {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.news-header {
+  padding: 5px 0;
+  overflow: hidden;
+}
+
+.news-header-item {
+  color: #a7a7a7;
+}
+
+.news-header-left {
+  float: left;
+}
+
+.news-header-right {
+  float: right;
+}
+
+.both {
+  clear: both;
+}
+.news-body{
+  overflow: hidden;
+}
+.news-body-img {
+  width: 60px;
+  height: 60px;
+  padding-right: 10px;
+}
+
+.news-body-data {
+  float: left;
+  width: 60%;
+}
+
+.img-right {
+  float: right;
+  width: 30%;
+}

@@ -1,0 +1,12 @@
+<!--pages/template/actionInfo/index.wxml-->
+  <view class='account-info'>
+    <view class='account-head-portrait'></view>
+    <view class='account-account-info'>
+      <view class='account-nick-name'>
+        {{accountInfo.nickName}}
+      </view>
+      <view class='account-explain'>
+        个人账号：{{accountInfo.userName}}
+      </view>
+    </view>
+  </view>

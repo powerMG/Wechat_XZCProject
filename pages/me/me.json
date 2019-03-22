@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "layout-data-group": "../template/groupData/index",
+    "layout-account-info": "../template/accountInfo/index"
+  }
+}

@@ -1,0 +1,6 @@
+<!--pages/message/message.wxml-->
+<view>
+  <block wx:for="{{messageData}}" wx:for-index="index" wx:key="index">
+    <message-box messageData="{{item}}"></message-box>
+  </block>
+</view>

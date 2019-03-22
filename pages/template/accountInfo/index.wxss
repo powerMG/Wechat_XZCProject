@@ -1,0 +1,26 @@
+/* pages/template/actionInfo/index.wxss */
+.account-info{
+  height: 150px;
+  background: #fff;
+  margin-bottom: 10px;
+  padding:10% 5% 0 5%;
+}
+.account-head-portrait{
+  width: 100px;
+  height: 100px;
+  border:solid 1px #ddd;
+  border-radius: 50px;
+  background: url("http://filelib.powerwxm.com/imgfile/headPortrait.png") no-repeat;
+  background-size: 100px 100px;
+  float: left;
+}
+.account-account-info{
+  height: 100px;
+  padding-top: 20px;
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+.account-explain{
+  color: rgb(196, 193, 193);
+}

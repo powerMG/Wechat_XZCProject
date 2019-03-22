@@ -1,0 +1,38 @@
+/* pages/food/food.wxss */
+
+.food-main {
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 96%;
+  overflow: hidden;
+}
+
+.food-icon {
+  width: 16%;
+  height: 50px;
+  border-radius: 10px;
+  float: left;
+}
+
+.food-icon>image {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.food-data-grounp {
+  width: 84%;
+  float: right;
+}
+
+.food-data-info {
+  font-size: 14px;
+}
+
+.food-data-nick-name {
+  color: rgb(5, 131, 125);
+}
+.food-data-photo>image{
+  width: 100px;
+  height: 100px;
+}

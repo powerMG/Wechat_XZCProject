@@ -1,0 +1,4 @@
+/* pages/me/me.wxss */
+.me-layout{
+  background: rgb(240, 240, 240);
+}

@@ -1,0 +1,8 @@
+<!--pages/template/groupData/index.wxml-->
+<view class='layout-data-group'>
+    <view class='layout-item' wx:for="{{settingData}}" wx:for-index="index" wx:key="index">
+      <icon></icon>
+      <text>{{item.name}}</text>
+      <text class='layout-more'>＞</text>
+    </view>
+</view>
